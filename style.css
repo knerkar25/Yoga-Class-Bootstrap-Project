@@ -1,0 +1,461 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+
+    margin-top: 40px;
+    overflow:hidden;
+    text-align: right;
+    background-color:#E2EDE7;
+    float: right;
+    width: 91%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #48514E;
+}
+
+nav ul li a:hover{
+    background-color:#B9C4BE;
+    color: #4A5956;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*
+  /* Mobile Navigation */
+    .mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .mobile-nav-toggle i {
+    color: #34b7a7;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    z-index: 9999;
+    overflow-y: auto;
+    background: #fff;
+    transition: ease-in-out 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+  
+  .mobile-nav * {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+  }
+  
+  .mobile-nav a {
+    display: block;
+    position: relative;
+    color: #222222;
+    padding: 10px 20px;
+   
+    font-weight: 500;
+    text-align: left;
+    width: 300px;
+    outline: none;
+  }
+  
+  .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+    color: #34b7a7;
+    text-decoration: none;
+  }
+  
+  .mobile-nav .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 10px;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .mobile-nav .active.drop-down > a:after {
+    content: "\eaa1";
+  }
+  
+  .mobile-nav .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .mobile-nav .drop-down ul {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .mobile-nav .drop-down li {
+    padding-left: 20px;
+  }
+  
+  .mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(9, 9, 9, 0.6);
+    overflow: hidden;
+    display: none;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+  
+  .mobile-nav-active .mobile-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+  }
+
+  
+  @media (min-width: 200px) and (max-width: 767px){
+   .bg-div{
+       height: 40px;
+       background-color: #E2EDE7;
+   }
+
+   .logo-img{
+       height: 40px;
+   }
+
+   
+  
+  }
+
+.logo-img{
+    margin-left: 2%;
+    position: relative;
+    width: 7%;
+}
+.bg-div{
+    background-color: #F4F9F3;
+    opacity: 0.9;
+}
+
+#hero{
+    padding-top: 110px;
+    background-color: #F4F9F3;
+    padding-bottom: 100px;
+}
+
+#hero .btn-contact {
+  font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: #6B9893;
+    margin-bottom: 100px;
+  }
+
+
+
+.choose-class{
+    background-color: #6B9893;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.our-stat{
+    
+    background-image: url(images/Yoga.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+    /*=====================================================
+    16. COUNTER css 
+======================================================*/
+
+.singel-counter{
+  position: relative;
+  z-index: 5;
+}
+.singel-counter span{
+  font-size: 36px;
+  color: #6B9893;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+.singel-counter p{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  color: #6B9893;
+  font-size: 15px;
+}
+.circle{
+
+margin-top: 80px;
+position: relative;
+border: 3px solid #6B9893;
+height: 170px;
+width: 170px;
+-moz-border-radius:50px;
+-webkit-border-radius: 100px;
+}
+
+.about-instructor{
+    background-color: #6B9893;
+    padding-right: 0;
+}
+
+
+.about-instructor .btn-contact {
+  font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #6B9893;
+    background: #F4F9F3;
+    margin-bottom: 100px;
+  }
+
+.new-exp{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #F4F9F3;
+}
+
+
+.new-exp .btn-contact {
+  font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: #6B9893;
+    margin-bottom: 100px;
+  }
+
+
+.why-us{
+    padding-top: 100px;
+    background-color: #6B9893;
+    padding-bottom: 100px;
+}
+
+
+.why-us .box {
+    padding: 20px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    background-color: #F4F9F3;
+    border-radius: 5px;
+    height: 375px;
+  
+  }
+  
+  .why-us .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #6B9893;
+  }
+  
+  .why-us .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #6B9893;
+  }
+  
+  .why-us .box p {
+    color: #6B9893;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+
+
+  .why-us .btn-contact {
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: #6B9893;
+    margin-bottom: 100px;
+  }
+
+.trainer{
+    background-image: url(images/Yoga.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      background-size: cover;
+    
+}
+
+
+.subscribe{
+    background-color:#6B9893 ;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#subscribe-box{
+  font-family: 'Rowdies', cursive;
+
+}
+
+input{
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 40%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    padding: 0 25px;
+}
+
+input[type="submit"]{
+    position: relative;
+    left: -25px;
+    background: #E2EDE7;
+    width: 15%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    color: #6B9893 ;
+    font-family: 'Rowdies', cursive;
+}
+
+#footer{
+    padding-top: 200px;
+    background-color: #F4F9F3;
+    padding-bottom: 80px;
+}
+
+#footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #6B9893 ;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  #footer .social-links a:hover {
+    background: #ffb03b;
+  }
+
+  .twitter{
+      margin-bottom: 5px;
+  }
+
+  .instagram{
+    margin-bottom: 5px;
+}
+
+.whatsapp{
+    margin-bottom: 5px;
+}
+
+.facebook{
+    margin-bottom: 5px;
+}
+
+#footer p{
+    color: #6B9893 ;
+    font-size: 15px;
+}
+
+#footer a{
+    color: #6B9893 ;
+    font-size: 15px;
+}
